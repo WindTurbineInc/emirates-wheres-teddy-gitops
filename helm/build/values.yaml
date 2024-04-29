@@ -1,0 +1,15 @@
+app:
+  name: emirates-wheres-teddy-app
+  namespace: emirates
+  cluster: .apps.wearedevs.rl97.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/WindTurbineInc/emirates-wheres-teddy
+  org: WindTurbineInc
+  name: emirates-wheres-teddy
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: emirates/wheres-teddy-app
+  tag: latest
